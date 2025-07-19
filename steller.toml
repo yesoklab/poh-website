@@ -1,0 +1,24 @@
+# POH 토큰 Stellar TOML 파일
+# 발행자: YesOkLab
+# 업데이트: 2025-07-19
+
+# 일반 정보
+ACCOUNTS = ["GD7E4PXMJHMPQCWVGIGDF7NWNURM5UGPFK6A3X3MCX6BWGTCIPE4ZLHK"]
+
+# 조직 정보
+ORG_NAME = "YesOkLab"
+ORG_URL = "https://yesoklab.github.io"
+ORG_LOGO = "https://ipfs.io/ipfs/bafybeigilwqvovxy7kjgzekgf7hudwmcmij26osbukf7yp6axbmaw2h6nq"
+ORG_DESCRIPTION = "다양한 블록체인 네트워크에서 의미있는 가치를 창조하는 차세대 토큰 프로젝트들을 개발하고 운영합니다."
+
+# 토큰 정보
+[[CURRENCIES]]
+code = "POH"
+issuer = "GD7E4PXMJHMPQCWVGIGDF7NWNURM5UGPFK6A3X3MCX6BWGTCIPE4ZLHK"
+name = "President One Hour"
+desc = "제21대 대통령 이재명님의 국정철학을 기념하는 특별한 토큰입니다. '대통령의 1시간 = 51,169,148명의 시간'이라는 깊은 철학적 의미를 Stellar 블록체인에 영구히 기록합니다."
+image = "https://ipfs.io/ipfs/bafybeigilwqvovxy7kjgzekgf7hudwmcmij26osbukf7yp6axbmaw2h6nq"
+is_asset_anchored = false
+is_unlimited = false
+max_number = 1000000000
+display_decimals = 7
